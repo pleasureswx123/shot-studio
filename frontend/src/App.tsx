@@ -1,5 +1,6 @@
 import { Routes, Route, Navigate, Link } from 'react-router-dom'
 import { ReactNode } from 'react'
+import logo from './assets/logo.svg'
 import ProjectsPage from './pages/ProjectsPage'
 import ProjectDetailPage from './pages/ProjectDetailPage'
 import EntityDetailPage from './pages/EntityDetailPage'
@@ -21,8 +22,8 @@ function App() {
       {/* 顶部导航栏（登录时才显示） */}
       {user && (
         <header className="h-12 bg-gray-900 border-b border-gray-800 flex items-center px-4 gap-4 shrink-0">
-          <Link to="/projects" className="text-orange-500 font-bold text-sm tracking-wider hover:text-orange-400">
-            莱博塔 SHOTSTUDIO
+          <Link to="/projects" className="flex items-center hover:opacity-80 transition-opacity">
+            <img src={logo} alt="ShotStudio" className="h-10" />
           </Link>
           <nav className="flex gap-1 ml-4">
             <Link to="/projects" className="px-3 py-1 text-sm text-gray-300 hover:text-white hover:bg-gray-800 rounded transition-colors">

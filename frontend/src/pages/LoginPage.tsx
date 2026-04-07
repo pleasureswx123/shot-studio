@@ -1,6 +1,7 @@
 import { useState, FormEvent } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useAuthStore } from '../stores/authStore'
+import logo from '../assets/logo.svg'
 
 export default function LoginPage() {
   const [loginVal, setLoginVal] = useState('')
@@ -24,10 +25,8 @@ export default function LoginPage() {
       <div className="w-full max-w-sm">
         {/* Logo */}
         <div className="text-center mb-8">
-          <h1 className="text-3xl font-bold tracking-widest text-white">
-            莱博塔<span className="text-blue-500">SHOTSTUDIO</span>
-          </h1>
-          <p className="text-gray-500 text-sm mt-1">影视全流程项目管理</p>
+          <img src={logo} alt="ShotStudio" className="h-20 mx-auto" />
+          <p className="text-gray-500 text-sm mt-3">影视全流程项目管理</p>
         </div>
 
         {/* 登录卡片 */}
