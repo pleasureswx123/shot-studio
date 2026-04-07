@@ -1,6 +1,6 @@
 # ShotStudio
 
-> 开源影视全流程项目管理系统，复刻 Autodesk Shotgun（Flow Production Tracking）核心功能。
+> 影视全流程项目管理系统，复刻 Autodesk Shotgun（Flow Production Tracking）核心功能。
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.11+-green.svg)
