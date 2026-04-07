@@ -48,6 +48,11 @@
 ```bash
 git clone https://github.com/pleasureswx123/shot-studio.git
 cd shot-studio
+
+# 首次启动（构建镜像）
+docker compose up --build -d
+
+# 后续启动（无需重新构建）
 docker compose up -d
 ```
 
