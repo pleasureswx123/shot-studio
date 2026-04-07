@@ -22,7 +22,7 @@ function App() {
       {user && (
         <header className="h-12 bg-gray-900 border-b border-gray-800 flex items-center px-4 gap-4 shrink-0">
           <Link to="/projects" className="text-orange-500 font-bold text-sm tracking-wider hover:text-orange-400">
-            SHOT STUDIO
+            莱博塔 SHOTSTUDIO
           </Link>
           <nav className="flex gap-1 ml-4">
             <Link to="/projects" className="px-3 py-1 text-sm text-gray-300 hover:text-white hover:bg-gray-800 rounded transition-colors">
